@@ -20,5 +20,11 @@
     color: var(--main-white);
     text-align: center;
     padding: 50px 20px;
+}
+
+.height {
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
