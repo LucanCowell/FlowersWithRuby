@@ -6,3 +6,19 @@
     --main-dark-green:#124117;
 
 }
+
+.body {
+    background-color: var(--main-white);
+    color: var(--main-dark-green);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: var(--main-pink);
+    color: var(--main-white);
+    text-align: center;
+    padding: 50px 20px;
+    height: 100vh;
+}
