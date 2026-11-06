@@ -10,9 +10,51 @@
 .body {
     background-color: var(--main-white);
     color: var(--main-dark-green);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Brush Script MT", cursive;
     margin: 0;
     padding: 0;
+}
+
+.navBar {
+    background-color: var(--main-purple);
+    color: var(--main-white);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    height: 5vh;
+}
+
+.navContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 10vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navItem {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navLinks:hover {
+    background-color: var(--main-green);
+}
+
+.navLinks {
+    color: var(--main-white);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 1s ease;
 }
 
 .hero {
@@ -20,10 +62,13 @@
     color: var(--main-white);
     text-align: center;
     padding: 50px 20px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 10vh;
+    border-bottom: 5px solid var(--main-purple);
 }
 
 .height {
-    height: 100vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     display: flex;
