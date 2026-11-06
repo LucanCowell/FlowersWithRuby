@@ -65,6 +65,9 @@
     font-family: "Brush Script MT", cursive;
     font-size: 10vh;
     border-bottom: 5px solid var(--main-purple);
+    background-image: url(./img/flowerwithruby.bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .height {
