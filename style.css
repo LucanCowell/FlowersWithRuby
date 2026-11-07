@@ -18,6 +18,8 @@
     padding: 0;
 }
 
+/* Nav Section */
+
 .navBar {
     background-color: var(--main-purple);
     color: var(--main-white);
@@ -60,6 +62,8 @@
     padding: 10px 15px;
     transition: all 1s ease;
 }
+
+/* Hero Section */
 
 .hero {
     background-color: var(--main-pink);
@@ -111,3 +115,45 @@
         0 100%
     );
 }
+
+/* Info Section */
+
+.info {
+    background-color: var(--main-white);
+    color: var(--main-dark-green);
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Allura', cursive;
+    font-size: 6vh;
+    height: 85vh;
+    border-bottom: 5px solid var(--main-purple);
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-pink);
+}
+
+.infoImg {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--main-purple);
+}
+
