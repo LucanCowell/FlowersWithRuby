@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 :root {
     --main-pink:#edbee8;
     --main-purple:#cf76c5;
     --main-white:#fcfcfc;
     --main-green:#30893a;
     --main-dark-green:#124117;
+    --main-black:#000000;
 
 }
 
@@ -47,7 +50,8 @@
 }
 
 .navLinks:hover {
-    background-color: var(--main-green);
+    background-color: var(--main-dark-green);
+    padding: 15px 20px;
 }
 
 .navLinks {
@@ -59,13 +63,13 @@
 
 .hero {
     background-color: var(--main-pink);
-    color: var(--main-white);
+    color: var(--main-black);
     text-align: center;
     padding: 50px 20px;
-    font-family: "Brush Script MT", cursive;
-    font-size: 10vh;
+    font-family: 'Allura', cursive;
+    font-size: 6vh;
     border-bottom: 5px solid var(--main-purple);
-    background-image: url(./img/flowerwithruby.bg.jpg);
+    background-image: url(./img/flowerswithruby.bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -75,4 +79,35 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.diagonal {
+    width: 98vw;
+    height: 40vh;
+    background: var(--main-pink);
+    opacity: 0.2;
+    position: absolute;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 40%,
+        0 100%
+    );
+}
+
+.diagonalTwo {
+    margin-top: 50vh;
+    width: 98vw;
+    height: 40vh;
+    background: var(--main-pink);
+    opacity: 0.2;
+    position: absolute;
+
+    clip-path: polygon(
+        0 50%,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
 }
