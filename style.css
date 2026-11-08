@@ -156,6 +156,8 @@
     object-fit: cover;
     background-color: var(--main-purple);
     display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .row {
@@ -165,15 +167,51 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    background-color: var(--main-green);
+    border-bottom: 5px solid var(--main-black);
 }
 
-.img {
-    width: 50%;
-    height: 50%;
-    gap: 20px;
-    object-fit: cover;
-    background-color: var(--main-white);
-    border: 5px solid var(--main-purple);
+.row2 {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: var(--main-dark-green);
+    border-top: 5px solid var(--main-black);
+}
+
+.img1 {
+    width: 50%;
+    height: 100%;
+    border-bottom: 5px solid var(--main-black);
+    object-fit: cover;
+    background-color: var(--main-purple);
+}
+
+.img2 {
+    width: 50%;
+    height: 100%;
+    border-bottom: 5px solid var(--main-black);
+    object-fit: cover;
+    background-color: var(--main-pink);
+}
+
+.img3 {
+    width: 50%;
+    height: 100%;
+    border-top: 5px solid var(--main-black);
+    object-fit: cover;
+    background-color: var(--main-pink);
+}
+
+.img4 {
+    width: 50%;
+    height: 100%;
+    border-top: 5px solid var(--main-black);
+    object-fit: cover;
+    background-color: var(--main-purple);
 }
