@@ -1,5 +1,5 @@
 # FlowersWithRuby
-This is a website for the local flower business, Flowers With Ruby.
+This is a mock-up website for the local flower business, Flowers With Ruby.
 
 This website aims to ensure that potential customers are able to easily access the store and information from Flowers With Ruby.
 
@@ -15,4 +15,3 @@ This website will consist of two main pages.
   based off the unique nature of the store sending an 
   email to the owner, for a follow up conversation to
   occur.
-
